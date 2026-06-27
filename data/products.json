@@ -1,0 +1,31 @@
+[
+  {
+    "id": "prod-MQVYXZO5-EFI",
+    "brand": "LG",
+    "allowedTenures": [
+      12,
+      24
+    ],
+    "model": "LG Fridge",
+    "specs": {
+      "Energy Rating": "3 Star",
+      "Capacity": "250 Litres",
+      "Type": "Double Door Fridge"
+    },
+    "category": "Fridge",
+    "isPopular": false,
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600"
+    ],
+    "price": 65000,
+    "colorOptions": [
+      "Brushed Steel",
+      "elegant Inox"
+    ],
+    "minDownpaymentPercent": 30,
+    "hidden": false,
+    "emiAvailable": true,
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600",
+    "outOfStock": false
+  }
+]

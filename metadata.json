@@ -1,0 +1,6 @@
+{
+  "name": "Riaan Ko Pasal",
+  "description": "Premium E-Commerce website for Riaan Ko Pasal (Riaan Enterprises) in Nepal, offering premium electronic home appliances and devices on 0% interest EMI with live shopkeeper spreadsheet integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

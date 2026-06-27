@@ -1,0 +1,82 @@
+{
+  "entities": {
+    "CategoryList": {
+      "title": "CategoryList",
+      "description": "Schema for categories settings document",
+      "type": "object",
+      "properties": {
+        "list": {
+          "type": "array"
+        }
+      },
+      "required": ["list"]
+    },
+    "Product": {
+      "title": "Product",
+      "description": "Product model",
+      "type": "object",
+      "properties": {
+        "brand": { "type": "string" },
+        "model": { "type": "string" },
+        "category": { "type": "string" },
+        "price": { "type": "number" },
+        "image": { "type": "string" },
+        "isPopular": { "type": "boolean" },
+        "outOfStock": { "type": "boolean" },
+        "emiAvailable": { "type": "boolean" },
+        "minDownpaymentPercent": { "type": "number" },
+        "allowedTenures": { "type": "array" }
+      }
+    },
+    "Review": {
+      "title": "Review",
+      "description": "Review model",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "location": { "type": "string" },
+        "stars": { "type": "number" },
+        "date": { "type": "string" },
+        "content": { "type": "string" }
+      }
+    },
+    "Staff": {
+      "title": "Staff",
+      "description": "Staff account",
+      "type": "object",
+      "properties": {
+        "username": { "type": "string" },
+        "passcode": { "type": "string" },
+        "role": { "type": "string" }
+      }
+    },
+    "Order": {
+      "title": "Order",
+      "description": "Customer order",
+      "type": "object",
+      "properties": {
+        "customerName": { "type": "string" },
+        "customerPhone": { "type": "string" },
+        "productModel": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "products": {
+      "schema": "Product",
+      "description": "Product catalog collection"
+    },
+    "reviews": {
+      "schema": "Review",
+      "description": "Customer reviews collection"
+    },
+    "staff": {
+      "schema": "Staff",
+      "description": "Staff logins collection"
+    },
+    "orders": {
+      "schema": "Order",
+      "description": "Customer orders collection"
+    }
+  }
+}
